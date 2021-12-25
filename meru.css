@@ -1,0 +1,262 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        --main-background-color: rgba(0, 0, 0, 0.568);
+        --header-bg-color: rgba(35, 117, 20, 0.233);
+        --h2-bg-color: #ffffff;
+        --profile-bg-color: #91ff00;
+        --font-color: black;
+        --bio-color: #15ff00;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-image: url('glassb.jpg');
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        font-size: 16px;
+    }
+
+    hr {
+        width: 40%;
+        border: none;
+        outline: none;
+        border: 0.5px solid #9b9b9b;
+    }
+
+    #obj {
+        width: 45%;
+    }
+
+    p, li, h5{
+        color: var(--h2-bg-color);
+    }
+
+    h2,
+    h3,
+    h4 {
+        color: var(--bio-color);
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .contents-container {
+        padding: 0 0 15px 0;
+        border: 1px solid rgba(0, 255, 0, 0.952);
+        border-radius: 25px;
+        margin: 2em auto;
+        width: 80%;
+        background-color: var(--main-background-color);
+        /* backdrop-filter: blur(5px); */
+        /* -webkit-backdrop-filter: blur(15px); */
+        vertical-align: middle;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .header {
+        border: 1px solid rgb(65, 253, 18);
+        border-bottom: none;
+        background-color: var(--header-bg-color);
+        width: 100%;
+        height: 50px;
+        border-radius: 25px 25px 0 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .header h2 {
+        color: var(--h2-bg-color);
+        font-size: 2.5em;
+        font-weight: bolder;
+        width: 100%;
+        text-align: center;
+        font-family: Allura;
+    }
+
+    .user {
+        background-color: rgba(121, 255, 109, 0.383);
+        padding: 0 1.5em;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .user .img-container {
+        padding: 5px;
+    }
+
+    .img-container img {
+        border-radius: 50%;
+        border: 2px solid var(--bio-color);
+    }
+
+    .info {
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: var(--bio-color);
+    }
+
+    .info h3,
+    .info p {
+        padding: 5px;
+    }
+
+    .social-links {
+        padding: 5px;
+    }
+
+    .objectiive {
+        margin: 0 auto;
+        padding: 5px 10px;
+        width: 80%;
+        height: 100px;
+    }
+
+    .objectiive p {
+        font-size: 1em;
+        margin-top: 5px;
+        font-family: 'Handlee', cursive;
+        font-weight: bolder;
+    }
+
+    .contact-skills {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact-experience {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+        border-bottom: 1px solid var(--header-bg-color);
+        border-top: 1px solid var(--header-bg-color);
+    }
+
+    .email,
+    .phone {
+        align-items: center;
+        display: flex;
+    }
+
+    .contact p {
+        display: inline-block;
+    }
+
+    .contact img {
+        padding: 5px;
+    }
+
+    .contact div {
+        padding: 5px;
+        margin: 2px 0;
+    }
+
+    .experience {
+        padding: 1em;
+    }
+
+
+    .experience ul {
+        padding: 0 2em;
+        margin-top: 10px;
+        font-family: 'Handlee', cursive;
+    }
+
+    .experience ul li {
+        font-size: 1.05em;
+        font-weight: bold;
+    }
+
+    .skills-education {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 0.4em 1.2em 1.2em;
+        width: 40%;
+        border-left: 1px solid var(--header-bg-color);
+        border-top: 1px solid var(--header-bg-color);
+
+    }
+
+    .skills,
+    .extra-skills,
+    .education {
+        min-width: 300px;
+        padding: 1em 1em 0 1em;
+    }
+
+    .skills-education ul {
+        padding: 0 1.5em;
+    }
+
+    .skills-education h4 {
+        margin-bottom: 8px;
+    }
+
+    @media only screen and (max-width: 800px) {
+        .skills-education {
+            width: 100%;
+            justify-content: flex-start;
+        }
+
+        .contact-experience {
+            width: 100%;
+        }
+
+        .social-links img {
+            width: 30px;
+        }
+
+    }
+
+    @media only screen and (min-width: 950px) {
+        body {
+            font-size: 18px;
+        }
+
+        .contents-container {
+            width: 70%;
+        }
+
+        .experience ul li {
+            font-family: 1.1em;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .contents-container {
+            width: 100%;
+            margin: 0px;
+            border-radius: 0px;
+        }
+
+        .header {
+            border-radius: 0px;
+        }
+
+        .skills-education {
+            width: 100%;
+        }
+
+        .contact-experience {
+            width: 100%;
+        }
+    }

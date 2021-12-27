@@ -5,25 +5,17 @@
 }
 
 body{
-    background-color: rgb(95, 95, 95);
     font-size: 16px;
     width: 100%;
 }
 .smartphone-design{
-    display: flex;
-    position: fixed;
-    left: 0;
-    right: 0;
     margin: 0 auto;
     width: 100%;
     background-color: white;
     color: black;
-    overflow-y: scroll;
-    overflow-x: hidden;
     height: 100%;
 }
 .smartphone-wrapper{
-    position: relative;
     width: 100%;
 }
 
@@ -93,9 +85,7 @@ body{
 .profile-container img{
     border: 2px solid #03045e; 
     border-radius: 50%;
-    text-align: center;
     margin: 15px auto 5px;
-    width: auto;
     height: 100px;
 }
 .profile-bio{
@@ -139,15 +129,9 @@ a:hover{
     height: 100%;
 }
 .quote{
-    position: relative;
     padding: 20px;
     color: white;
     background-color: #0f70a5;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 q{
@@ -168,6 +152,9 @@ q{
 @media only screen and (max-width: 450px){
     a{
         width: 200px;
+    }
+    .footer{
+        position: static;
     }
 }
 

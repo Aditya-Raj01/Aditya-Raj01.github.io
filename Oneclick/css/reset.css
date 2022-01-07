@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    --main-background-color: rgb(255, 255, 255);
+    --header-text-color: #640a3a;
+    --main-font-color: #0d0543;
+    --main-color: #ff5500;
+    --blue-box-color: rgba(128, 255, 213, 0.308);
+    --orange-box-color: rgba(255, 128, 128, 0.301);
+    --green-box-color: rgba(127, 255, 104, 0.330); 
+    --grey-box-color: rgba(219, 219, 219, 0.431);
+    --purple-box-color: rgba(236, 132, 219, 0.24);
+    --green-font-color: #48ff00;
+    --orange-font-color: var(--main-color);
+    --blue-font-color: var(--main-font-color);
+
+}
+
+body{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    background: var(--main-background-color);
+    /* background: linear-gradient(140deg, rgba(0,0,0,1) 0%, rgba(188,63,0,1) 0%, rgba(255,85,0,1) 0%, rgba(240,240,240,1) 0%, rgba(241,241,241,0.9864320728291317) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100vh; */
+}
+
+/*
+    Gradient
+
+    background: rgb(0,0,0);
+    background: linear-gradient(140deg, rgba(0,0,0,1) 0%, rgba(188,63,0,1) 0%, rgba(255,85,0,1) 0%, rgba(235,235,235,1) 0%, rgba(228,228,228,0.9864320728291317) 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(140deg, rgba(0,0,0,1) 0%, rgba(188, 63, 0, 0.5) 0%, rgba(255,85,0,1) 0%, rgba(0,0,0,0.986432072829131) 65%, rgba(0,0,0,1) 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(140deg, rgba(0,0,0,1) 0%, rgba(188,63,0,1) 0%, rgba(255,85,0,1) 0%, rgba(240,240,240,1) 0%, rgba(241,241,241,0.9864320728291317) 100%);
+
+*/
+
+
+/* @font-face {
+    font-family: 'Metropolis Extra Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/font/meta/Metropolis-ExtraBold.woff');
+    } */
+
+h1, h2, h3, h4, h5{
+    font-family: 'Metropolis Extra Bold', sans-serif;
+}
+    
+p, a, li{
+    font-family: 'Metropolis Regular';
+}
+    

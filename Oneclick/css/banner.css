@@ -1,0 +1,85 @@
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+
+}
+header h2{
+    text-align: center;
+    color: var(--header-text-color);
+}
+main{
+    position: relative;
+    top: 60px;
+    color:  var(--main-font-color);
+    width: 100%;
+}
+main h1{
+    font-weight: 700;
+}
+main span{
+    font-weight: 700;
+    color: #ff5500;
+}
+.banner{
+    width: 100%;
+    background-color: hsla(20, 100%, 83%, 0.294);
+
+}
+.banner-container{
+    padding: 2em;
+   width: 100%;
+   position: absolute;
+   top: 0px;
+   left: 0;
+}
+.banner-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+ .banner-left-text{
+    text-align: right;
+}
+
+/*
+.banner-right-text{
+
+} */
+#svg{
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+@media only screen and (max-width: 900px){
+    body{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .banner-container{
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 589px){
+    h1{
+        font-size: 14px;
+    }
+    body{
+        font-size: 14px;
+    }
+    .banner-container{
+        padding: 5px;
+    }
+}

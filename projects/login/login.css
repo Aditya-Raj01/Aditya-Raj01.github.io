@@ -11,7 +11,7 @@ body{
     color: white;
 }
 .main-container{
-    background-image: url('background/red.jpg');
+    background-image: url('red.jpg');
     background-repeat: no-repeat;
     background-position: center left;
     background-size: cover;

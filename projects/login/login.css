@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.main-container{
+    background-image: url('/Jan-2022/Image/background/red.jpg');
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+.login-container{
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 20px !important;
+    margin: 0 auto;
+    width: 60vw;
+    background-color: rgba(255, 255, 255, 0.153);
+    color: white;
+    backdrop-filter: blur(15px);
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse; */
+    /* background-color: burlywood; */
+
+}
+.login-section{
+    width: 50%;
+    min-width: 300px;
+    padding: 10px 30px 10px 10px;
+    
+}
+.image-section{
+    background-image: url('/Jan-2022/Image/image/photoo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+/* .image-section img{
+    aspect-ratio: 3/4;
+    width: 100%;
+    height: auto;
+} */
+label, input, a{
+    display: block;
+}
+
+input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.login-section input{
+    font-size: 1.1em;
+    width: 100%;
+    padding: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.616);
+    border-radius: 4px;
+}
+.login-section label{
+    font-size: 1.1em;
+    padding: 2px 2px 2px 0;
+}
+.login-input-items{
+    padding: 20px 0 0 0;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.login-input-items input{
+    margin-bottom: 1em;
+}
+p{
+    text-align: center;
+}
+.login{ 
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 0;
+}
+#forgot-password{
+    color: rgb(94, 255, 0);
+    padding: 4px 0;
+}
+.login input{
+    color: white;
+    background-color: black;
+    padding: 7px 12px;
+    font-size: 1.1em;
+    border: 2px solid transparent;
+}
+.login input:hover{
+    border: 2px solid  white;
+}
+.login p{
+    padding: 5px 12px;
+}
+
+.login-options{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.login-options a{
+    text-decoration: none;
+}
+.login-options p{
+    align-items: center;
+}
+.login-options button{
+    color: white;
+    background-color: black;
+    border: none;
+    margin: 0 auto;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.616);
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+a, button, .login-input-items input[type="submit"]{
+    cursor: pointer;
+}
+.login-fb-insta{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.login-fb-insta a{
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    width: 40%;
+    border: 1px solid rgba(255, 255, 255, 0.616);
+    padding: 6px 5px;
+}
+.login-fb-insta a:hover{
+    border: 1px solid black;
+}
+.login-fb-insta img{
+    padding: 2px 00 00 00;
+}
+.create-account{
+    padding: 1.5em 0;
+}
+.create-account p{
+    padding: 5px 0;
+}

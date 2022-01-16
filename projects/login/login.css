@@ -11,7 +11,7 @@ body{
     color: white;
 }
 .main-container{
-    background-image: url('/Jan-2022/Image/background/red.jpg');
+    background-image: url('background/red.jpg');
     background-repeat: no-repeat;
     background-position: center left;
     background-size: cover;
@@ -45,7 +45,7 @@ body{
     
 }
 .image-section{
-    background-image: url('/Jan-2022/Image/image/photoo.jpg');
+    background-image: url('photoo.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -44,7 +44,7 @@ body{
 
 }
 .left{
-    background-image: url('/Jan-2022/17-01-2022/img/ny.jpeg');
+    background-image: url('ny.jpeg');
     background-repeat: no-repeat;
     background-position: center;
 }
